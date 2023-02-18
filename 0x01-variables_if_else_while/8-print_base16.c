@@ -9,7 +9,7 @@
 
 int main(void)
 {
-        char ch;
+	char ch;
 
 	for (ch = '0'; ch <= '9'; ch++)
 	{
@@ -20,6 +20,6 @@ int main(void)
 		putchar(ch);
 	}
 
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
